@@ -1,0 +1,7 @@
+{
+  "name": "dia3",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,1 @@
+Cheat sheet Typescrypt:https://www.cheatography.com/gregfinzer/cheat-sheets/typescript/
