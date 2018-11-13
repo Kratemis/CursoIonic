@@ -1,0 +1,7 @@
+{
+  "name": "nasaApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

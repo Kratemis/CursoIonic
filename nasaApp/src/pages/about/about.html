@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-item>
+    <ion-label>Start Time</ion-label>
+    <ion-datetime displayFormat="YYYY-MM-DD" pickerFormat="YYYY-MM-DD" [(ngModel)]="service.date" (ionChange)="requestWithDate()"></ion-datetime>
+  </ion-item>
+
+  <ion-card *ngIf="service.photoSelected">
+    <img [src]="service?.photoSelected?.url" />
+    <div class="card-title">{{ service.photoSelected.title }}</div>
+    <div class="card-subtitle">{{ service.photoSelected.copyright }}</div>
+  </ion-card>
+</ion-content>

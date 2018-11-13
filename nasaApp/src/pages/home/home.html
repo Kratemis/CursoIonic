@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-card>
+    <img [src]="service?.photoToday?.url" />
+    <div class="card-title">{{ service?.photoToday?.title }}</div>
+    <div class="card-subtitle">{{ service?.photoToday?.copyright }}</div>
+  </ion-card>
+</ion-content>
